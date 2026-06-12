@@ -25,9 +25,9 @@ import { ShoppingBag, X, Plus, Minus, ArrowRight, Check, Loader } from "lucide-r
 const BRAND = "Meridian Editions";
 
 const CONFIG = {
-  SHOPIFY_DOMAIN: "",          // e.g. "meridian-editions.myshopify.com"
-  STOREFRONT_TOKEN: "",        // Storefront API access token
-  API_VERSION: "2024-10",
+  SHOPIFY_DOMAIN: "meridianeditions.myshopify.com",
+  STOREFRONT_TOKEN: "b9f190cfbd09d012816643cbc5729a17",
+  API_VERSION: "2026-04",
 };
 const LIVE = Boolean(CONFIG.SHOPIFY_DOMAIN && CONFIG.STOREFRONT_TOKEN);
 
